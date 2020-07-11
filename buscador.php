@@ -35,7 +35,7 @@ if (!empty($array)) {
         echo "</tr>";
         echo "</thead>";
         echo "</tbody>";
-        foreach ($array as $station) {  //recorrrido 
+        foreach ($array as $station) { 
             $distancia = round($station['distancia'], 3);
             echo "<tr>";
             echo " <td>{$station['type']} </td>";

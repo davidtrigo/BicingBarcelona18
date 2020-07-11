@@ -41,14 +41,6 @@ class ControllerStation
             if (!empty($_GET['latitud']) || !empty($_GET['longitud']) || !empty($_GET['distancia'])) 
                      print ("todos los varios son obligatorios");
                     
-                  
-         
-            /*
-            if (empty ($_GET['latitud'])) print ("Latitud es un valor necesario")."<br>"; 
-            if  (empty($_GET['longitud'])) print ("Longitud es un valor necesario")."<br>";
-            if (empty ($_GET['distancia']))  print ("Distancia es un valor necesario")."<br>";
-                    **/
-            
            
         }
         return [];
@@ -82,7 +74,7 @@ class ControllerStation
             $nearbyStations = $station['nearbyStations'];
             $status = $station['status'];
 
-            // si el id  es el mismo que el id pasado por paramentro
+            
             if ($id == $idStation) {
                 $stationDetails [] = array('id' => "$id", 'type' => "$type", 'latitude' => "$latitude",
                     'longitude' => "$longitude", 'streetName' => "$streetName",

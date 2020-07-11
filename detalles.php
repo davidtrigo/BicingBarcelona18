@@ -5,12 +5,9 @@ require_once "ControllerStations.php";
 <!doctype html>
 <html lang="es">
 <head>
-
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
@@ -34,7 +31,7 @@ require_once "ControllerStations.php";
             echo "<table class='table'>";
             echo "<thead>";
             echo "<tr>";
-            echo "<th>Tipo de estación</th>";
+            echo "<th>Tipo de estaciï¿½n</th>";
             echo "<th>Calle</th>";
             echo "<th>slots disponibles</th>";
             echo "<th>Bicis disponibles</th>";
@@ -71,8 +68,8 @@ require_once "ControllerStations.php";
             echo "<table class='table'>";
             echo "<thead>";
             echo "<tr>";
-            echo "<th>Numero de estación</th>";
-            echo "<th>Tipo de estación</th>";
+            echo "<th>Numero de estaciï¿½n</th>";
+            echo "<th>Tipo de estaciï¿½n</th>";
             echo "<th>Calle</th>";
             echo "<th>Detalles</th>";
             echo "</tr>";
@@ -97,8 +94,6 @@ require_once "ControllerStations.php";
 
 </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
