@@ -1,6 +1,6 @@
 #Bicing Barcelona 2018
 
-![Bicing Barcelona 2018](https://bitbucket.org/davidtrigo/bicing-barcelona-2018/raw/c452791ac43db181c23fb5f1bf2dea232ec942cf/img/log-bicing.png "Bicing Barcelona 2018")
+![Bicing Barcelona 2018](https://github.com/davidtrigo/BicingBarcelona18/blob/master/img/log-bicing.png "Bicing Barcelona 2018")
 
 Aplicación que muestra las estaciones de bicing más cercanas a una posición dada dando uso del [API público](http://opendataajuntament.barcelona.cat/data/es/dataset/bicing "API público")
 
